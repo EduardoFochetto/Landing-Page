@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Landing-Page/Assets/CSS/variables.css" />
+    <link rel="stylesheet" href="/Landing-Page/Assets/CSS/elements.css" />
+    <link rel="stylesheet" href="/Landing-Page/Assets/CSS/classes.css" />
+    <link rel="stylesheet" href="/Landing-Page/Assets/CSS/menu.css" />
+    <link rel="stylesheet" href="/Landing-Page/Assets/CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing</title>
+  </head>
+
+  <body>
+    <input
+      id="close-menu"
+      class="close-menu"
+      type="checkbox"
+      aria-label="Close menu"
+      role="button"
+    />
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+          <a href="#intro">LOGO</a>
+        </h1>
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#fullstack">FullStack</a></li>
+            <li><a href="#top3">Top 3</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#price">Price</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section id="intro" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>CSS básico</h2>
+          <p>
+            CSS (Folha de Estilo em Cascata) é o código que você usa para dar
+            estilo à sua página Web. CSS básico apresenta tudo que você precisa
+            para começar.
+          </p>
+        </div>
+        <div class="intro-img">
+          <img
+            src="/Landing-Page/Assets/IMG/undraw_static_assets_rpm6.svg"
+            alt="Homem segurando o símbolo do CSS, uma mulher empurrando um símbolo do HTML e outro homem mostrando o símbolo do JavaScript"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="fullstack" class="white-bg section">
+      <div class="main-content fullstack-content">
+        <h2>FullStack</h2>
+        <p>
+          Podemos classificar como a parte visual de um site, aquilo que
+          conseguimos interagir. Quem trabalha com <strong>Front End</strong> é
+          responsável por desenvolver por meio de código uma interface gráfica,
+          normalmente com as tecnologias base da Web (HTML, CSS e JavaScript).
+        </p>
+        <p>
+          <strong>Back End</strong>, como o próprio nome sugere, vem da ideia do
+          que tem por trás de uma aplicação. Pode ficar meio abstrato em um
+          primeiro momento, mas pense que para conseguir usar o Facebook no dia
+          a dia, os dados do seu perfil, amigos e publicações precisam estar
+          salvos em algum lugar, sendo esse lugar um banco de dados e
+          processados a partir de lá. Tudo isso pode ser feito com uma série de
+          linguagens diferentes como: PHP, Ruby, Java, Clojure, C#
+        </p>
+        <p>
+          Bom, ambas as vertentes do Front e do Back End possuem uma trilha bem
+          longa dependendo do quão profundo conhecedor delas você quer ser.
+          <strong>Full stack developer</strong> é quem trabalhar com Front End e
+          Back End.Com o passar dos anos é meio natural após começar por um dos
+          lados você ir aprendendo como o outro funciona.
+        </p>
+      </div>
+    </section>
+    <section id="top3" class="top3 main-bg section">
+      <div class="main-content top3-content">
+        <h2 class="grid-main-heading">Top 3</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid">
+          <article>
+            <h3>Teste 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Consequuntur nihil excepturi earum sunt ut. Repudiandae vel ab
+              harum commodi earum aut totam omnis cumque modi excepturi. Quam
+              molestiae quas beatae!
+            </p>
+          </article>
+          <article>
+            <h3>Teste 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Consequuntur nihil excepturi earum sunt ut. Repudiandae vel ab
+              harum commodi earum aut totam omnis cumque modi excepturi. Quam
+              molestiae quas beatae!
+            </p>
+          </article>
+          <article>
+            <h3>Teste 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Consequuntur nihil excepturi earum sunt ut. Repudiandae vel ab
+              harum commodi earum aut totam omnis cumque modi excepturi. Quam
+              molestiae quas beatae!
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="gallery" class="top3 white-bg section">
+      <div class="main-content top3-content">
+        <h2 class="grid-main-heading">Gallery</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid">
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?r=1"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?r=2"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?r=3"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?r=4"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?r=5"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?r=6"
+              alt="random image from unsplash"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work" class="top3 main-bg section">
+      <div class="main-content top3-content">
+        <h2 class="grid-main-heading">Recent Jobs</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid">
+          <article>
+            <h3>Teste 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Consequuntur nihil excepturi earum sunt ut. Repudiandae vel ab
+              harum commodi earum aut totam omnis cumque modi excepturi. Quam
+              molestiae quas beatae!
+            </p>
+          </article>
+          <article>
+            <h3>Teste 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Consequuntur nihil excepturi earum sunt ut. Repudiandae vel ab
+              harum commodi earum aut totam omnis cumque modi excepturi. Quam
+              molestiae quas beatae!
+            </p>
+          </article>
+          <article>
+            <h3>Teste 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Consequuntur nihil excepturi earum sunt ut. Repudiandae vel ab
+              harum commodi earum aut totam omnis cumque modi excepturi. Quam
+              molestiae quas beatae!
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="price" class="white-bg section">
+      <div class="main-content fullstack-content">
+        <h2>FullStack</h2>
+        <p>
+          Podemos classificar como a parte visual de um site, aquilo que
+          conseguimos interagir. Quem trabalha com <strong>Front End</strong> é
+          responsável por desenvolver por meio de código uma interface gráfica,
+          normalmente com as tecnologias base da Web (HTML, CSS e JavaScript).
+        </p>
+        <div class="responsive-table">
+          <table>
+            <caption>
+              Pricing Table
+            </caption>
+            <thead>
+              <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+                <th>Title 4</th>
+                <th>Title 5</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Testando</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Contact us</h2>
+          <p>
+            CSS (Folha de Estilo em Cascata) é o código que você usa para dar
+            estilo à sua página Web. CSS básico apresenta tudo que você precisa
+            para começar.
+          </p>
+        </div>
+        <div class="intro-img">
+          <img
+            src="/Landing-Page/Assets/IMG/undraw_contact_us_-15-o2.svg"
+            alt="Contact Us"
+          />
+        </div>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Contact Me</legend>
+            <div class="form-group">
+              <label for="First Name">First Name</label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Seu nome"
+              />
+            </div>
+            <div class="form-group">
+              <label for="Last Name">Last Name</label>
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Sobrenome"
+              />
+            </div>
+            <div class="form-group">
+              <label for="Email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="seunome@email.com"
+              />
+            </div>
+            <div class="form-group full-width">
+              <label for="Message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Digite sua mensagem"
+              ></textarea>
+            </div>
+            <div class="form-group full-width button">
+              <button type="submit">Send Message</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+    <footer class="white-bg footer">
+      <p>
+        Feito com <span class="heart">❤</span> por Eduardo Fochetto com auxílo
+        do professor
+        <a
+          rel="nofollow"
+          target="_blank"
+          href="https://beacons.page/otaviomiranda"
+          >Otavio Miranda</a
+        >. Curso Udemy de JavaScript + TypeScript. Site com propósito educativo!
+      </p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+  </body>
+  <!--https://www.svgbackgrounds.com/
+    https://undraw.co/search-->
+</html>
